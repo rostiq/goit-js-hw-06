@@ -7,8 +7,9 @@ const bodyRef = document.querySelector('body');
 const nameRef = document.querySelector('.color');
 
 btnRef.addEventListener('click', () => {
-  bodyRef.style.backgroundColor = getRandomHexColor();
-  nameRef.textContent = getRandomHexColor();
+  const colors = getRandomHexColor();
+  bodyRef.style.backgroundColor = colors;
+  nameRef.textContent = colors;
 });
 
 

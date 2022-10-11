@@ -13,6 +13,4 @@ incrementBtnRef.addEventListener('click', () => {
     counterValue += 1;
     valueRef.textContent = counterValue;
 }
-);  
-
-
+);
